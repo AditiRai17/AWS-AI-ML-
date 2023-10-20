@@ -44,4 +44,26 @@ https://docs.python.org/3/library/stdtypes.html#string-methods
 
 
 ## Data Structures in Python
+  - Types of Data Structures: Lists, Tuples, Sets, Dictionaries, Compound Data Structures
+  - Operators: Membership, Identity
+  - Built-In Functions and Methods
 
+
+### List : data type for mutable ordered sequence of elements
+       - create a list with square brackets. Lists can contain any mix and match of the data types you have seen so far.
+       - e.g. list_of_random_things = [1, 3.4, 'a string', True]
+
+  #### Slicing : lower index is inclusive and the upper index is exclusive.
+  #### Membership Operators
+         - Keyword	Operator
+         - in	: evaluates if an element exists within our list
+         - not in	: evaluates if an element does not exist within our list
+
+  #### Mutability & Order
+       -> String is immutable & ordered sequence of character (No changes can be made)
+       -> List is mutable (changes can be made)
+
+
+       - "Order" is about whether the position of an element in the object can be used to access the element.
+       - Both strings and lists are ordered.
+       - We can use the order to access parts of a list and string.
