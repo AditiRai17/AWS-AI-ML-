@@ -67,3 +67,18 @@ https://docs.python.org/3/library/stdtypes.html#string-methods
        - "Order" is about whether the position of an element in the object can be used to access the element.
        - Both strings and lists are ordered.
        - We can use the order to access parts of a list and string.
+
+  #### Useful Functions for Lists 
+  
+- len() returns how many elements are in a list.
+- max() returns the greatest element of the list. How the greatest element is determined depends on what type of objects are in the list. The maximum element in a list of numbers is the largest number. The maximum element in a list of strings is the element that would occur last if the list were sorted alphabetically. This works because the the max() function is defined in terms of the greater than comparison operator. The max() function is undefined for lists that contain elements from different, incomparable types.
+- min() returns the smallest element in a list. min is the opposite of max, which returns the largest element in a list.
+- sorted() returns a copy of a list in order from smallest to largest, leaving the list unchanged. Note again that for string objects, sorted smallest to largest means sorting in alphabetical order.
+- join method : takes a list of strings as an argument, and returns a string consisting of the list elements joined by a separator string.
+- append method : adds an element to the end of a list.
+
+
+------------------------------
+
+A data type is just a type that classifies data. This can include primitive (basic) data types like integers, booleans, and strings, as well as data structures, such as lists.
+Data structures are containers that organize and group data types together in different ways. For example, some of the elements that a list can contain are integers, strings, and even other lists!
