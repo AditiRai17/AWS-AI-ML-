@@ -88,6 +88,7 @@ Data structures are containers that organize and group data types together in di
 ### Tuple : immutable ordered sequences of elements.
 
     - often used to store related pieces of information.
+    - can be indexed and sliced like a list.
     - example involving latitude and longitude:
            location = (13.4125, 103.866667)
            print("Latitude:", location[0])
@@ -108,6 +109,13 @@ Data structures are containers that organize and group data types together in di
 ### Sets : mutable unordered collections of unique elements.
 
    - One application of a set is to quickly remove duplicates from a list.
+   - can modify the elements in a set with methods like add and pop.
+   - can't index and slice elements like a list; there is no sequence of positions to index with!
+   - only contains unique elements.
+   - defined with curly braces, {}
+   - set_example = {element1, element2, element3}
+   - empty set of curly braces like this: a = {}
+
 
          numbers = [1, 2, 6, 3, 1, 1, 6]
          unique_nums = set(numbers)
@@ -127,6 +135,7 @@ Data structures are containers that organize and group data types together in di
             - {key1:value1, key2:value2, key3:value3, key4:value4, ...}
             - Dictionaries are mutable, but their keys need to be any immutable type, like strings, integers, or tuples.
             - It's not even necessary for every key in a dictionary to have the same type!
+            - keys are used to index values, they must be unique and immutable.
 
        
    - Used Operations :
@@ -138,3 +147,14 @@ Data structures are containers that organize and group data types together in di
     
             - is	: evaluates if both sides have the same identity
             - is not: evaluates if both sides have different identities
+
+  #### Practice : ==  vs. is
+
+         a = [1, 2, 3]
+         b = a
+         c = [1, 2, 3]
+         
+         print(a == b)  //True
+         print(a is b)  //True
+         print(a == c)  //True
+         print(a is c)  //False
