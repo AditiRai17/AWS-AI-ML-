@@ -82,3 +82,59 @@ https://docs.python.org/3/library/stdtypes.html#string-methods
 
 A data type is just a type that classifies data. This can include primitive (basic) data types like integers, booleans, and strings, as well as data structures, such as lists.
 Data structures are containers that organize and group data types together in different ways. For example, some of the elements that a list can contain are integers, strings, and even other lists!
+
+
+
+### Tuple : immutable ordered sequences of elements.
+
+    - often used to store related pieces of information.
+    - example involving latitude and longitude:
+           location = (13.4125, 103.866667)
+           print("Latitude:", location[0])
+           print("Longitude:", location[1])
+           
+   #### Tuple Unpacking
+   Tuples can also be used to assign multiple variables in a compact way.
+
+     dimensions = 52, 40, 100
+     length, width, height = dimensions
+     print("The dimensions are {} x {} x {}".format(length, width, height))
+         
+   ##### The parentheses are optional when defining tuples, and programmers frequently omit them if parentheses don't clarify the code. 
+         
+   In the second line, three variables are assigned from the content of the tuple dimensions. This is called tuple unpacking. You can use tuple unpacking to assign the 
+   information from a tuple into multiple variables without having to access them one by one and make multiple assignment statements.
+
+### Sets : mutable unordered collections of unique elements.
+
+   - One application of a set is to quickly remove duplicates from a list.
+
+         numbers = [1, 2, 6, 3, 1, 1, 6]
+         unique_nums = set(numbers)
+         print(unique_nums)
+
+        This would output:  {1, 2, 3, 6}
+
+   - Used Operations :
+        - add
+        - in
+        - pop : random element is poped since set is an unordered container
+    
+### Dictionaries & Identity Operators
+
+   #### Dictionary: mutable data type that stores mappings of unique keys to values.
+
+            - {key1:value1, key2:value2, key3:value3, key4:value4, ...}
+            - Dictionaries are mutable, but their keys need to be any immutable type, like strings, integers, or tuples.
+            - It's not even necessary for every key in a dictionary to have the same type!
+
+       
+   - Used Operations :
+        - in
+        - get : looks up values in a dictionary, but unlike square brackets*,* get returns None (or a default value of your choice) if the key isn't found.
+ 
+  
+  ####  Identity Operators
+    
+            - is	: evaluates if both sides have the same identity
+            - is not: evaluates if both sides have different identities
