@@ -158,3 +158,10 @@ Data structures are containers that organize and group data types together in di
          print(a is b)  //True
          print(a == c)  //True
          print(a is c)  //False
+
+
+
+<img width="1246" alt="Screenshot 2023-10-26 at 1 35 16 AM" src="https://github.com/AditiRai17/AWS-AI-ML-/assets/91966396/a9329102-84ad-41db-8c40-d8a4eae26efa">
+
+
+
