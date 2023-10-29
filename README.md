@@ -32,7 +32,9 @@ https://www.programiz.com/python-programming/operators
 
 https://docs.python.org/3.6/library/string.html#format-string-syntax
 
-#### split()
+#### split() : 
+
+default : space , new line & carriage return
 
 A helpful string method when working with strings is the .split method. This function or method returns a data container called a list that contains the words from the input string. We will be introducing you to the concept of lists in the next video.
 
