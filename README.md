@@ -166,4 +166,58 @@ Data structures are containers that organize and group data types together in di
 <img width="1246" alt="Screenshot 2023-10-26 at 1 35 16 AM" src="https://github.com/AditiRai17/AWS-AI-ML-/assets/91966396/a9329102-84ad-41db-8c40-d8a4eae26efa">
 
 
+## Control Flow
+
+  - Conditional Statements
+  - Boolean Expression
+  - For and While Loops
+  - Break and Continue
+  - Zip and Enumerate
+  - List Comprehensions
+
+  ### Conditional Statements : if , elif , else
+  
+*  #### Indentation : The Python Style Guide (PEP 8) recommends using 4 spaces to indent, rather than using a tab.
+
+  Here are most of the built-in objects that are considered False in Python:
+
+     - constants defined to be false: None and False
+     - zero of any numeric type: 0, 0.0, 0j, Decimal(0), Fraction(0, 1)
+     - empty sequences and collections: '"", (), [], {}, set(), range(0)
+
+
+ ### Loops : do something repeatedly, over an iterable.
+
+   - An iterable is an object that can return one of its elements at a time. 
+   - This can include sequence types, such as strings, lists, and tuples, as well as non-sequence types, such as dictionaries and files.
+   - range() is a built-in function used to create an iterable sequence of numbers.
+     
+   ##### range() 
+
+       range(start=0, stop, step=1)
+       
+       The range() function takes three integer arguments, the first and third of which are optional:
+       
+       - The 'start' argument is the first number of the sequence. If unspecified, 'start' defaults to 0.
+       - The 'stop' argument is 1 more than the last number of the sequence. This argument must be specified.
+       - The 'step' argument is the difference between each number in the sequence. If unspecified, 'step' defaults to 1.
+       
+       Notes on using range():
+       
+       If you specify one integer inside the parentheses withrange(), it's used as the value for 'stop,' and the defaults are used for the other two.
+           e.g. - range(4) returns 0, 1, 2, 3
+       If you specify two integers inside the parentheses withrange(), they're used for 'start' and 'stop,' and the default is used for 'step.'
+           e.g. - range(2, 6) returns 2, 3, 4, 5
+       Or you can specify all three integers for 'start', 'stop', and 'step.'
+           e.g. - range(1, 10, 2) returns 1, 3, 5, 7, 9
+
+   #### For loop 
+
+        
+
+        
+
+      
+
+
 
