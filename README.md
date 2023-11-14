@@ -221,3 +221,48 @@ Data structures are containers that organize and group data types together in di
 
 
 
+ ### Zip and Enumerate : Useful built-in functions that can come in handy when dealing with loops.
+
+   #### Zip 
+        - Zip returns an iterator that combines multiple iterables into one sequence of tuples.
+        - Each tuple contains the elements in that position from all the iterables. 
+        - For example, printing
+        
+             list(zip(['a', 'b', 'c'], [1, 2, 3])) 
+                           would 
+             output [('a', 1), ('b', 2), ('c', 3)].
+
+
+       - UNZIPPING : you can also unzip a list into tuples using an asterisk.
+
+            some_list = [('a', 1), ('b', 2), ('c', 3)]
+            letters, nums = zip(*some_list)
+
+
+  #### Enumerate
+       - built in function that returns an iterator of tuples containing indices and values of a list.
+       - You'll often use this when you want the index along with each element of an iterable in a loop.
+       - Example
+           
+           letters = ['a', 'b', 'c', 'd', 'e']
+           for i, letter in enumerate(letters):
+                print(i, letter)
+
+        This code would output:
+          0 a
+          1 b
+          2 c
+          3 d
+          4 e
+
+
+
+
+
+
+
+
+
+
+
+ 
